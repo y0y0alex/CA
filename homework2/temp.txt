@@ -1,0 +1,6 @@
+complier
+riscv-none-elf-gcc -Os ./leetcode.c
+
+
+show assembly code
+riscv-none-elf-objdump -d build/hello.elf
